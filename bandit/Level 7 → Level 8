@@ -1,0 +1,11 @@
+- **Step 1:**  
+    `ls -la` → lists **all files**, including hidden ones, with details (permissions, size, owner).
+    
+    - `-l` → long format (detailed info).
+        
+    - `-a` → shows hidden files (starting with `.`).
+        
+- **Step 2:**  
+    `grep "millionth" data.txt` → searches inside `data.txt` for the word _millionth_.
+    
+    - Output shows the **line containing "millionth"** → password is right next to it.
